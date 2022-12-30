@@ -1,4 +1,6 @@
+import requests
 from bs4 import BeautifulSoup
+import json
 
 def get_product(data:str) -> str:
     """Get the product name from the data string.
